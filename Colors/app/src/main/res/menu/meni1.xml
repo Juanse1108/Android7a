@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/iteTransparent" android:title="@string/lblOptTransparent"></item>
+<item android:id="@+id/iteSemiTransparent" android:title="@string/lblOptSemiTransparent"></item>
+    <item android:id="@+id/iteOpaque" android:title="@string/lblOptOpaqueTransparent"></item>
+    <item android:id="@+id/iteBlack" android:title="@string/lblOptBlack"></item>
+    <item android:id="@+id/iteWhite" android:title="@string/lblOptWhite"></item>
+    <item android:id="@+id/iteRed" android:title="@string/lblOptRed"></item>
+    <item android:id="@+id/iteGreen" android:title="@string/lblOptGreen"></item>
+    <item android:id="@+id/iteBlue" android:title="@string/lblOptBlue"></item>
+    <item android:id="@+id/iteCyan" android:title="@string/lblOptCyan"></item>
+    <item android:id="@+id/iteMagenta" android:title="@string/lblOptMagenta"></item>
+    <item android:id="@+id/iteYellow" android:title="@string/lblOptYelow"></item>
+    <item android:id="@+id/iteReset" android:title="@string/lblOptReset"></item>
+    <item android:id="@+id/iteAboutof" android:title="@string/lblOptAboutIg"></item>
+</menu>

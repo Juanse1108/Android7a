@@ -30,10 +30,15 @@
                 android:text="@string/lbl_green" />
 
             <SeekBar
-                android:id="@+id/seekBar2"
+
+                android:id="@+id/sbrGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:min="0"
+                android:max="255"
+                android:progress="0"
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -49,10 +54,14 @@
                 android:text="@string/lbl_red" />
 
             <SeekBar
-                android:id="@+id/seekBar"
+                android:id="@+id/sbrRed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:min="0"
+                android:max="255"
+                android:progress="0"
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -68,10 +77,14 @@
                 android:text="@string/lbl_alpha" />
 
             <SeekBar
-                android:id="@+id/seekBar4"
+                android:id="@+id/sbrAlpha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:min="0"
+                android:max="255"
+                android:progress="0"
+                />
 
         </LinearLayout>
 
@@ -88,11 +101,27 @@
                 android:text="@string/lbl_blue" />
 
             <SeekBar
-                android:id="@+id/seekBar3"
+                android:id="@+id/sbrBlue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:min="0"
+                android:max="255"
+                android:progress="0"
+                />
         </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/imagen">
+            <!--this element lets us change the colors -->
+            <View
+                android:id="@+id/vieColors"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#80808080"/>
+        </FrameLayout>
+            
 
     </LinearLayout>
 
