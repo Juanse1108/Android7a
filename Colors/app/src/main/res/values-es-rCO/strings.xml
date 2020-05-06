@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Colors</string>
-    <string name="lbl_red">Rojo</string>
-    <string name="lbl_green">Verde</string>
-    <string name="lbl_blue">Azul</string>
-    <string name="lblOptTransparent">Trasparente</string>
-    <string name="lblOptSemiTransparent">Semi trasparente</string>
-    <string name="lblOptOpaqueTransparent">Opacp</string>
-    <string name="lblOptBlack">Negro</string>
-    <string name="lblOptWhite">Blanco</string>
-    <string name="lblOptRed">Rojo</string>
-    <string name="lblOptGreen">Verde</string>
-    <string name="lblOptBlue">Azul</string>
-    <string name="lblOptCyan">Cyan</string>
-    <string name="lblOptMagenta">Magenta</string>
-    <string name="lblOptYelow">Amarillo</string>
-    <string name="lblOptReset">Restablecer</string>
-    <string name="lblOptAboutIg">Acerca de</string>
+    <string name="app_name">Colores</string>
+    <string name="lblOpAboutof">Acerca de</string>
+    <string name="lblOpBlack">Negro</string>
+    <string name="lblOpBlue">Azul</string>
+    <string name="lblOpCyan">Cian</string>
+    <string name="lblOpGreen">Verde</string>
+    <string name="lblOpMagenta">Magenta</string>
+    <string name="lblOpOpaque">Opaco</string>
+    <string name="lblOpRed">Rojo</string>
+    <string name="lblOpReset">Restablecer</string>
+    <string name="lblOpSemitransparent">Semitransparente</string>
+    <string name="lblOpTransparent">Transparente</string>
+    <string name="lblOpWhite">Blanco</string>
+    <string name="lblOpYellow">Amarillo</string>
     <string name="lbl_alpha">Alfa</string>
+    <string name="lbl_blue">Azul</string>
+    <string name="lbl_green">Verde</string>
+    <string name="lbl_red">Rojo</string>
+    <string name="lblHelp">Ayuda</string>
+
+    <string name="lblFacultad">Facultad de Ingeniería</string>
+    <string name="lblPrograma">Programa de Ingeria de sistemas</string>
+    <string name="lblSemestre">Septimo semestre</string>
+    <string name="lblElectiva">Programación en Android Studio</string>
+
+
+    <string name="lblOpColors">Colores</string>
+    <string name="lblOpClose_app">Cerrar aplicación</string>
 </resources>

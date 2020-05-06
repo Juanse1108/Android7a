@@ -9,37 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="20dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/lbl_green" />
-
-            <SeekBar
-
-                android:id="@+id/sbrGreen"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:min="0"
-                android:max="255"
-                android:progress="0"
-                />
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,7 +22,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/lbl_red" />
+                android:text="@string/lbl_red"
+                android:textSize="18sp" />
 
             <SeekBar
                 android:id="@+id/sbrRed"
@@ -60,8 +32,7 @@
                 android:layout_weight="1"
                 android:min="0"
                 android:max="255"
-                android:progress="0"
-                />
+                android:progress="0" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,22 +41,44 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/lbl_alpha" />
+                android:text="@string/lbl_green"
+                android:textSize="18sp" />
 
             <SeekBar
-                android:id="@+id/sbrAlpha"
+                android:id="@+id/sbrGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:min="0"
                 android:max="255"
-                android:progress="0"
-                />
+                android:progress="0" />
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lbl_blue"
+                android:textSize="18sp" />
+
+            <SeekBar
+                android:id="@+id/sbrBlue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:min="0"
+                android:max="255"
+                android:progress="0" />
         </LinearLayout>
 
         <LinearLayout
@@ -98,31 +91,31 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/lbl_blue" />
+                android:text="@string/lbl_alpha"
+                android:textSize="18sp" />
 
             <SeekBar
-                android:id="@+id/sbrBlue"
+                android:id="@+id/sbrAlpha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:min="0"
                 android:max="255"
-                android:progress="0"
-                />
+                android:progress="0" />
         </LinearLayout>
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/imagen">
-            <!--this element lets us change the colors -->
+            android:background="@drawable/crash">
+
+            <!-- This element lets us change the color -->
             <View
                 android:id="@+id/vieColors"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#80808080"/>
+
         </FrameLayout>
-            
-
     </LinearLayout>
-
 </RelativeLayout>
