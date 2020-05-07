@@ -27,4 +27,6 @@
     <string name="lblSemestre">Seventh semester</string>
     <string name="lblElectiva">Programming in Android Studio</string>
 
+    <string name="txt_commit">Commit</string>
+
 </resources>

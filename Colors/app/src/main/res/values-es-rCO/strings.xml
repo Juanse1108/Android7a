@@ -24,6 +24,7 @@
     <string name="lblPrograma">Programa de Ingeria de sistemas</string>
     <string name="lblSemestre">Septimo semestre</string>
     <string name="lblElectiva">Programación en Android Studio</string>
+    <string name="txt_commit">Comentario</string>
 
 
     <string name="lblOpColors">Colores</string>
