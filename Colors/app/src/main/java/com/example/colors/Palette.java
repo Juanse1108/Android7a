@@ -12,6 +12,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Palette extends AppCompatActivity
@@ -22,6 +23,7 @@ public class Palette extends AppCompatActivity
     private SeekBar vBlue = null;
     private SeekBar vAlpha = null;
     private View vFilter = null;
+    private TextView color;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +40,7 @@ public class Palette extends AppCompatActivity
         vBlue = findViewById(R.id.sbrBlue);
         vAlpha = findViewById(R.id.sbrAlpha);
         vFilter = findViewById(R.id.vieColors);
+        color = (TextView) findViewById(R.id.color);
 
         vRed.setOnSeekBarChangeListener(this);
         vGreen.setOnSeekBarChangeListener(this);
@@ -84,6 +87,7 @@ public class Palette extends AppCompatActivity
               vRed.setProgress(0);
               vGreen.setProgress(0);
               vBlue.setProgress(0);
+
               break;
 
 
@@ -97,6 +101,7 @@ public class Palette extends AppCompatActivity
               vGreen.setProgress(255);
               vBlue.setProgress(255);
               vAlpha.setProgress(200);
+              color.setText("Blanco");
               break;
 
                   case R.id.iteRed :
@@ -104,6 +109,7 @@ public class Palette extends AppCompatActivity
               vGreen.setProgress(0);
               vBlue.setProgress(0);
               vAlpha.setProgress(128);
+                      color.setText("Rojo");
               break;
 
               case R.id.iteGreen :
@@ -112,6 +118,7 @@ public class Palette extends AppCompatActivity
               vGreen.setProgress(255);
               vBlue.setProgress(0);
               vAlpha.setProgress(128);
+                  color.setText("Verde");
               break;
 
               case R.id.iteBlue :
@@ -120,6 +127,7 @@ public class Palette extends AppCompatActivity
               vGreen.setProgress(0);
               vBlue.setProgress(255);
               vAlpha.setProgress(128);
+                  color.setText("Azul");
               break;
 
               case R.id.iteCyan :
@@ -128,6 +136,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(255);
                 vBlue.setProgress(255);
                 vAlpha.setProgress(200);
+                  color.setText("Cyan");
               break;
 
           case R.id.iteMagenta :
@@ -136,6 +145,7 @@ public class Palette extends AppCompatActivity
               vGreen.setProgress(0);
               vBlue.setProgress(255);
               vAlpha.setProgress(200);
+              color.setText("Magenta");
               break;
 
           case R.id.iteYellow :
@@ -144,6 +154,7 @@ public class Palette extends AppCompatActivity
               vGreen.setProgress(255);
               vBlue.setProgress(0);
               vAlpha.setProgress(200);
+              color.setText("Amarillo");
               break;
 
            case R.id.iteBkack :
@@ -152,6 +163,7 @@ public class Palette extends AppCompatActivity
                vGreen.setProgress(0);
                vBlue.setProgress(0);
                vAlpha.setProgress(200);
+               color.setText("Negro");
                break;
            case R.id.iteTransparent :
                //Change color to transparent
@@ -159,6 +171,7 @@ public class Palette extends AppCompatActivity
                vGreen.setProgress(0);
                vBlue.setProgress(0);
                vAlpha.setProgress(0);
+               color.setText("Trasparente");
                break;
            case R.id.iteSemiTransparent :
                //Change color to semitransparet
@@ -166,12 +179,14 @@ public class Palette extends AppCompatActivity
                vGreen.setProgress(128);
                vBlue.setProgress(128);
                vAlpha.setProgress(128);
+               color.setText("SemiTrasparente");
                break;
            case R.id.iteOpaque:
                vAlpha.setProgress(128);
                vRed.setProgress(0);
                vGreen.setProgress(0);
                vBlue.setProgress(0);
+               color.setText("Opaco");
                break;
            case R.id.iteAboutof :
                //Go/jump to Aboutof Activity

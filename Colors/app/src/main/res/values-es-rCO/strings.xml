@@ -26,6 +26,8 @@
     <string name="lblElectiva">Programación en Android Studio</string>
     <string name="txt_commit">Comentario</string>
 
+    <string name="Color">Color</string>
+
 
     <string name="lblOpColors">Colores</string>
     <string name="lblOpClose_app">Cerrar aplicación</string>

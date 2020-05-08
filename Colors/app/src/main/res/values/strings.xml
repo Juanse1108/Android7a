@@ -28,5 +28,6 @@
     <string name="lblElectiva">Programming in Android Studio</string>
 
     <string name="txt_commit">Commit</string>
+    <string name="Color">Color</string>
 
 </resources>
