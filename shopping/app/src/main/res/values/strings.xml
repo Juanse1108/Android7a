@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shopping cart</string>
+
+    <string name="Product_Name">Product Name</string>
+    <string name="Quantity">Quantity</string>
+
+
+    <string name="Add_to_cart">Add to cart</string>
+
+    <string name="Buy">Buy</string>
+
+
+</resources>

@@ -183,10 +183,11 @@
                     android:layout_height="100dp"
                     android:layout_marginRight="5dp"
                     android:layout_marginBottom="5dp"
-                    android:text="1"
-                    android:textSize="18sp"
                     android:background="@color/colorBgBtnDarkula"
-                    android:textColor="@color/colorTextDarkula"/>
+                    android:onClick="btn1"
+                    android:text="1"
+                    android:textColor="@color/colorTextDarkula"
+                    android:textSize="18sp" />
 
                 <Button
                     android:id="@+id/btn2"

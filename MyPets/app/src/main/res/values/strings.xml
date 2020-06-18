@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyPets</string>
+
+    <!--Login Activity-->
+    <string name="ht_text_username">Username</string>
+    <string name="ht_text_password">Password</string>
+    <string name="btn_text_login">Sign in</string>
+
+    <string name="btn_text_Register">Sign up</string>
+
+    <!--RegisterUserActivity-->
+    <string name="Activity_label">New user</string>
+    <string name="UserName_label">E-mail</string>
+    <string name="Password_label">Password</string>
+    <string name="Btn_register_label">Register</string>
+</resources>
